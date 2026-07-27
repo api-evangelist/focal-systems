@@ -1,8 +1,29 @@
 aid: focal-systems
 name: Focal Systems
-description: Focal Systems is a company surfaced as a portfolio company of uncork-capital, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Focal Systems is a San Francisco-based deep-learning company building the
+  operating system for brick-and-mortar retail. Its platform combines
+  proprietary shelf-mounted computer-vision cameras, real-time AI, and streaming
+  data to digitize physical stores hourly — tracking on-shelf availability,
+  out-of-stocks, planogram and price-tag compliance, shrink, and inventory.
+  Products include Computer Vision cameras, Shelf AI, the Action Tool associate
+  mobile app, and the Impact analytics dashboard, used by leading grocery and
+  retail chains such as Walmart Canada to reduce waste, redeploy labor, and
+  recover lost sales. Focal Systems is a Y Combinator and Uncork Capital-backed
+  company and operates as an enterprise SaaS vendor; it does not publish a
+  public self-serve developer API or SDK.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://focal.systems/wp-content/uploads/2026/06/In-Store-Technology-of-the-Year.png
 url: https://raw.githubusercontent.com/api-evangelist/focal-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Retail
+- Computer Vision
+- Artificial Intelligence
+- Deep Learning
+- Retail Automation
+- Inventory Management
+- On-Shelf Availability
+- Grocery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.focal.systems
+  url: https://focal.systems
+- type: About
+  url: https://focal.systems/about-focal/
+- type: Blog
+  url: https://focal.systems/news/
+- type: Support
+  url: https://focal.systems/contact/
+- type: GitHubOrganization
+  url: https://github.com/focal-systems
+- type: TermsOfService
+  url: https://focal.systems/terms/
+- type: PrivacyPolicy
+  url: https://focal.systems/privacy-policy/
+- type: DomainSecurity
+  url: security/focal-systems-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

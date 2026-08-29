@@ -12,6 +12,17 @@ description: >-
   recover lost sales. Focal Systems is a Y Combinator and Uncork Capital-backed
   company and operates as an enterprise SaaS vendor; it does not publish a
   public self-serve developer API or SDK.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
